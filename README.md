@@ -5,7 +5,7 @@
 
 Projeto para classificação de IMC conforme faixa etária e gênero, desenvolvido para a disciplina de Teste de Software.
 
-## 📦 Arquivos Essenciais
+## Arquivos Essenciais
 teste-imc/
 
 ├── excecoes.py # Exceções personalizadas
@@ -17,7 +17,7 @@ teste-imc/
 └── README.md # Este arquivo
 
 
-## 🚀 Como Executar
+## Como Executar
 ```bash
 # Instalar dependências (se necessário)
 pip install coverage
