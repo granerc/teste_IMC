@@ -1,37 +1,26 @@
-### Gerar ambiente virtual
+# Sistema de Análise de IMC Infantil
 
-```cmd
-python -m venv venv
-```
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Coverage](https://img.shields.io/badge/coverage-93%25-brightgreen)
 
-### Abrir o ambiente virtual
+Projeto para classificação de IMC conforme faixa etária e gênero, desenvolvido para a disciplina de Teste de Software.
 
-```cmd
-venv\Scripts\activate.bat
-```
+## 📦 Arquivos Essenciais
+teste-imc/
+├── excecoes.py # Exceções personalizadas
+├── ler2.py # Classe principal
+├── ler2_teste.py # Testes automatizados
+└── README.md # Este arquivo
 
-### Instalar o coverage
 
-```cmd
+## 🚀 Como Executar
+```bash
+# Instalar dependências (se necessário)
 pip install coverage
-```
 
-## Simulação
+# Executar testes
+python ler2_teste.py
 
-### Executar testes
-
-```cmd
-coverage run <ARQUIVO>
-```
-
-### Ver estatísticas
-
-```cmd
-coverage report
-```
-
-### Gerar HTML
-
-```cmd
-coverage html
-```
+# Ver cobertura de testes
+python -m coverage run -m unittest ler2_teste.py
+python -m coverage report -m
