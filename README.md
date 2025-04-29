@@ -16,6 +16,8 @@ teste-imc/
 
 └── README.md # Este arquivo
 
+└── Comprovação de Cobertura # Imagem do resultado dos testes
+
 
 ## Como Executar
 ```bash
