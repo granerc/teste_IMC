@@ -7,9 +7,13 @@ Projeto para classificação de IMC conforme faixa etária e gênero, desenvolvi
 
 ## 📦 Arquivos Essenciais
 teste-imc/
+
 ├── excecoes.py # Exceções personalizadas
+
 ├── ler2.py # Classe principal
+
 ├── ler2_teste.py # Testes automatizados
+
 └── README.md # Este arquivo
 
 
